@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:theme="@style/ThemeOverlay.AppCompat"
+	android:gravity="center">
+
+	<View
+		android:background="#00000000"
+		android:layout_width="match_parent"
+		android:layout_height="32dp"/>
+
+	<View
+		android:background="@color/colorDivider"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:layout_marginBottom="16dp"/>
+
+	<ImageView
+		android:id="@+id/ic_header"
+		android:layout_width="75dp"
+		android:layout_height="75dp"
+		android:src="@mipmap/ic_launcher"
+		android:padding="2dp"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/title"
+		android:gravity="center"
+		android:onClick="onClickTitle"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/email_id"
+		android:gravity="center"
+		android:onClick="onClickEmail"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<View
+		android:background="@color/colorDivider"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:layout_marginTop="16dp"/>
+
+</LinearLayout>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF8800</color>
+    <color name="colorPrimaryDark">#884400</color>
+    <color name="colorAccent">#FFAA44</color>
+	<color name="colorAndroid">#00FFAA</color>
+	<color name="colorDivider">#888888</color>
+</resources>

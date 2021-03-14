@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_newRepo"
+            android:title="New" />
+		<item
+            android:id="@+id/item_repo"
+            android:title="Repositories" />
+        <item
+            android:id="@+id/item_project"
+            android:title="Projects" />
+        <item
+            android:id="@+id/item_package"
+            android:title="Packages" />
+    </group>
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/item_settings"
+				android:title="Settings" />
+        </menu>
+    </item>
+    <item android:title="Application">
+        <menu>
+            <item
+                android:id="@+id/item_shareApp"
+				android:icon="@drawable/ic_share"
+                android:title="Share"/>
+            <item
+                android:id="@+id/item_aboutApp"
+				android:icon="@drawable/ic_about"
+                android:title="About" />
+        </menu>
+    </item>
+</menu>
