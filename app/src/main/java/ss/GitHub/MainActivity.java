@@ -168,6 +168,7 @@ public class MainActivity extends AppCompatActivity {
 					case R.id.item_whatsapp     : startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://wa.me/919130057189")).setPackage("com.whatsapp")); break;  
 					case R.id.item_openInChrome : startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(webView.getUrl())).setPackage("com.android.chrome")); break;
 					case R.id.item_desktop      : desktopButton.setChecked(!desktopButton.isChecked()); break;
+					case R.id.item_websetting   : startActivity(new Intent(MainActivity.this, SetOptionToWeb.class)); break;
 				}
 				drawer_layout.closeDrawers();
 				return true;
