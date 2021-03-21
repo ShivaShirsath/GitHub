@@ -25,7 +25,7 @@ import java.util.*;
 import android.content.pm.*;
 import java.lang.reflect.*;
 import android.widget.*;
-import android.support.v4.view.*;
+import android.support.v4.view.MenuItemCompat;
 
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawer_layout;
@@ -280,8 +280,7 @@ public class MainActivity extends AppCompatActivity {
 					view.loadUrl(url);
 				}
 			} else {
-				view.loadUrl(url);
-             //   startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+				startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
 			}
 			return true;
 		}
