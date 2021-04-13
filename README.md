@@ -4,12 +4,10 @@
 ```
 touch .gitignore 
 git config --global user.name Harry 
-git h
-config 
--global user.email youremail@example.com 
-git 
-init   add 
-git   git 
+git config --global user.email youremail@example.com 
+git init   
+git add 
+git hh
 commit 
 -m “Initial Commit 
 git 
