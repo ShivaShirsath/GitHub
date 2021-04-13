@@ -5,19 +5,19 @@
 
 > touch .gitignore 
 
-
 > git config --global user.name ShivaShirsath
-
-
 
 > git config --global user.email Shiva@Shirsath.com
 
-
-> git init   
+> git init 
+  
 > git add .
+
 > git commit -m "Commit Message"
 
 > git status 
-> git remote add orign <ssh url.git>   
+
+> git remote add orign <url.git>
+
 > git push origin master
 
